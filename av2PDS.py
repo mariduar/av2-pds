@@ -1,17 +1,16 @@
-class cliente:
-    def __init__(self, nome, anonascimento,sexo,limitedecredito, endereco):
+class aluno:
+    def __init__(self, nome, idade, ra, sexo, cpf, rg, nota1, nota2):
         self.nome = nome
-        self.anonascimento = anonascimento
+        self.idade = idade
+        self.ra = ra
         self.sexo= sexo
-        self.limitedecredito = limitedecredito
-        self.endereco= endereco
-    
-    def imprimir(self):
-        print(self.nome)
-        print(self.anodenascimento)
-        print(self.sexo)
-        print(self.limitedecredito)
-        print(self.endereco)
+        self.cpf= cpf
+        self.rg= rg
+        self.nota1= nota1
+        self.nota2= nota2
 
-cliente1 = cliente("maryana", "2007", "feminino", "500", "rua paranapanema 3221")
-cliente1.imprimir()
+        def imprimir(self):
+            print(self.nome)
+            aluno = ("maria", "17", "7", "121", "360", "20", "50")
+    
+   
